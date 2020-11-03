@@ -221,9 +221,10 @@ background-color: #dddbdb;
 }
 
 .blogs{
-
-    display: flex;
-    justify-content: center ;
+    font-size: 30px;
+    display: grid;
+    margin:0 auto;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .blog__item{
@@ -233,11 +234,9 @@ background-color: #dddbdb;
     min-height: 500px;
     background:#ebebeb;
     margin: 0 30px 0;
-    flex:25%;
-}
-.blog__item:hover{
 
 }
+
 
 .blog__inner{
     position: relative;
@@ -259,7 +258,7 @@ background-color: #dddbdb;
 
 .blog__text{
     width: 100%;
-    font-size: 45px;
+
     color: black;
 }
 
@@ -380,6 +379,78 @@ text-align: center;
         flex:100%;
     }
 }
+@media screen and (max-width: 800px){
+    #fourghtheader{
+        font-size: 40px;
+    }
+    .OUR__works{
+        min-height: 400px;
+    }
+    .Our_skills{
+        min-width: 480px;
+        min-height: 300px;
+    }
+    #UL{
+        font-size: 20px;
+    }
+    .header{
+        width: 100%;
+        max-width: 800px;
+    }
+    .container{
+        max-width: 610px;
+        max-height: 800px;
+    }
+
+    .blogs{
+        display: flex;
+        flex: 100%;
+
+    }
+    .blog__text{
+        font-size: 20px;
+    }
+    .blog__item{
+        width: 100px;
+        font-size: 20px;
+
+    }
+    .p{
+        font-size: 40px;
+    }
+    .About__us_par{
+        font-size: 20px;
+    }
+    .Our_skills{
+        max-width: 380px;
+        margin: 0 auto;
+    }
+    .UL{
+        max-width: 380px;
+    }
+    .img1{
+        width: 100%;
+    }
+    #firstheader{
+        font-size: 20px;
+    }
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        font-size: 20px;
+    }
+    .col{
+        max-width: 150px;
+
+    }
+    #secondheader{
+        font-size: 20px;
+    }
+    #thirdheader{
+        font-size: 15px;
+    }
+}
+
 @media screen and (max-width: 600px){
 
     #fourghtheader{
