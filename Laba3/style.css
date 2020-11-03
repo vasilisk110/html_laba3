@@ -344,7 +344,9 @@ text-align: center;
     .blocks{
         flex:50%;
     }
-
+    .blog__item{
+        font-size: 20px;
+    }
 }
 
 @media screen and (max-width: 480px){
